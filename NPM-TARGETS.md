@@ -74,16 +74,6 @@ Einstellungen für den Linter befinden sich unter `/.eslintrc.js`.
 
 <hr>
 
-![Mocha](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_mocha.png)
-
-### Alle TypeScript Tests mit Mocha aufrufen
-`npm run test:all`
-
-Ruft den Mocha Test Runner auf der alle definierten Tests in TypeScript Dateien unterhalb `/src/test` ausführt.
-Die Konfiguration für den Testrunner wird als Parameter im Anschluß an den Befehl definiert.
-
-<hr>
-
 ![Jest](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_jest.png)
 
 ### Alle TypeScript Tests mit Jest aufrufen

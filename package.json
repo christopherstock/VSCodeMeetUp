@@ -15,7 +15,6 @@
         "webpack:devserver": "webpack-dev-server --mode=development",
         "typedoc:generate": "typedoc --out doc --listInvalidSymbolLinks --name \"Ant Design meets The International Chuck Norris Database, (c) 2020 Mayflower GmbH\" src/typescript",
         "eslint:check": "eslint \"src/**/*.{ts,tsx}\"",
-        "test:all": "mocha --require ts-node/register --require ignore-styles --require src/test/index.ts src/test/**/*.ts src/test/**/*.tsx",
         "test:jest": "jest",
         "test:jest-coverage": "jest --coverage"
     },
