@@ -6,8 +6,8 @@
     "license": "MIT",
     "main": "dist/index.html",
     "homepage": "https://www.mayflower.de",
-    "repository": "https://github.com/christopherstock/AntDesignPrimer.git",
-    "bugs": "https://github.com/christopherstock/AntDesignPrimer/issues",
+    "repository": "https://github.com/christopherstock/VSCodeMeetUp.git",
+    "bugs": "https://github.com/christopherstock/VSCodeMeetUp/issues",
     "scripts": {
         "typescript:compile": "tsc",
         "webpack:dev": "webpack --mode=development --watch",

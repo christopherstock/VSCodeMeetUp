@@ -1,16 +1,15 @@
+![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
-![npm](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_npm.png)
-
-## npm targets
+# npm targets
 
 Hier gibt es eine ausführliche Übersicht aller npm-Targets mit kurzer Beschreibung derer Funktionsweise. Mit den 
  angegebenen Befehlen können die einzelnen Tools unseres npm-Tech Stacks ausgeführt werden:
 
 <hr>
 
-![TypeScript](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_typescript.png)
+![TypeScript](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_typescript.png)
 
-### TypeScript nach JavaScript kompilieren
+## TypeScript nach JavaScript kompilieren
 `npm run typescript:compile`
 
 Kompiliert alle TypeScript Quellcodes von `/src` nach JavaScript unter `/bin`.
@@ -18,9 +17,9 @@ Kompiliert alle TypeScript Quellcodes von `/src` nach JavaScript unter `/bin`.
 
 <hr>
 
-![Webpack](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_webpack.png)
+![Webpack](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_webpack.png)
 
-### Webpack in development ausführen
+## Webpack in development ausführen
 `npm run webpack:dev`
 
 Gleiches Verhalten wie Target `typescript:compile`. Darübehinaus werden alle internen
@@ -32,13 +31,13 @@ Nach dem erfolgreichen Abschluss dieses Targets kann das fertige Frontend unter
 
 Alle Einstellungen für Webpack siedeln in der `/webpack.config.js` an.
 
-### Webpack in production ausführen
+## Webpack in production ausführen
 `npm run webpack:production`
 
 Gleiches Verhalten wie das target `webpack:dev` nur dass das Kompilat unter
  `dist/js/bundle.js` minifiziert und obfuskiert wird.
 
-### Den Webpack Dev Server starten
+## Den Webpack Dev Server starten
 `npm run webpack:devserver`
 
 Gleiches Verhalten wie das Target `webpack:dev` es wird allerdings kein Output unter
@@ -54,18 +53,18 @@ Alle Einstellungen für den Webpack Dev Server befinden sich in der `/webpack.co
 
 <hr>
 
-![TypeDoc](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_typedoc.png)
+![TypeDoc](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_typedoc.png)
 
-### TypeDoc generieren
+## TypeDoc generieren
 `npm run typedoc:generate`
 
 Generiert eine HTML Dokumentation unter `/doc` für alle TypeScript Quellcodes unter `/src/typescript`.
 
 <hr>
 
-![ESLint](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_eslint.png)
+![ESLint](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_eslint.png)
 
-### ESLint ausführen
+## ESLint ausführen
 `npm run eslint:check`
 
 Führt den ESLinter für alle Quellcodes unter `/src` aus.
@@ -74,9 +73,9 @@ Einstellungen für den Linter befinden sich unter `/.eslintrc.js`.
 
 <hr>
 
-![Jest](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_jest.png)
+![Jest](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_jest.png)
 
-### Alle TypeScript Tests mit Jest aufrufen
+## Alle TypeScript Tests mit Jest aufrufen
 `npm run test:jest`
 
 Ruft den Jest Test Runner auf der alle definierten Tests in TypeScript Dateien unterhalb `/src/test` ausführt, 
@@ -84,7 +83,7 @@ die über die Endung `.test.ts(x)` verfügen.
 
 Die Konfiguration für Jest befindet sich in der `/package.json` im Abschnitt `jest`.
 
-### Alle TypeScript Tests mit Jest aufrufen und Code Coverage generieren
+## Alle TypeScript Tests mit Jest aufrufen und Code Coverage generieren
 `npm run test:jest-coverage`
 
 Gleiches Verhalten wie das Target `test:jest` und im Anschluß wird die Code Coverage unter `/coverage` generiert.

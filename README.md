@@ -1,5 +1,12 @@
+![Visual Studio Code](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_vscode.png)
 
-![Ant Design](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_ant_design.png)
+# Visual Studio Code MeetUp
+
+Welcome to 
+
+<hr>
+
+![Ant Design](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_ant_design.png)
 
 # React Hooks and React Context - Ant Design Web-Frontend Workshop 2.0
 
@@ -16,7 +23,7 @@ In diesem Workshop wollen wir die Komponentenbibliothek Ant Design im praktische
 
 <hr>
 
-![npm](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_npm.png)
+![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
 ## npm-Tech Stack
 
@@ -39,7 +46,7 @@ Insgesamt kommen die folgenden Technologien zum Einsatz:
 
 <hr>
 
-![The International Chuck Norris Database](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/icndb.png)
+![The International Chuck Norris Database](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/icndb.png)
 
 ## The International Chuck Norris Database
 
@@ -62,7 +69,7 @@ Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die *
 
 <hr>
 
-![Installation](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/install.png)
+![Installation](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/install.png)
 
 ## Installation
 
@@ -74,7 +81,7 @@ Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pa
 
 <hr>
 
-![Entwicklung](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/develop.png)
+![Entwicklung](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/develop.png)
 
 ## Entwicklung
 
@@ -88,14 +95,14 @@ Die gebaute und in den Webpack Dev Server gemountete Frontend Anwendung kann jet
 
 Es sollte nun das folgende Frontend im Browser zu sehen sein:
 
-![Frontend](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/frontend.jpg)
+![Frontend](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/frontend.jpg)
 
 Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend selbstständig neu und aktualisiert die
  Webseite im Browser.
 
 <hr>
 
-![Aufgaben](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/exam.png)
+![Aufgaben](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/exam.png)
 
 ## Aufgaben
 
@@ -118,34 +125,20 @@ Extrahieren Sie den Lambda in der Methode `RandomJoke#render()` im Attribut `ren
 
 <hr>
 
-![Hand Outs](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/handout.png)
+![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
 
-## Folgeworkshops
+## Hand Outs
 
-Hier sind ein paar weiterführende Workshops zur Vertiefung der einzelnen verwendeten Technologien unseres Tech Stacks:
-
-#### Warum TypeScript?
-
-https://blog.mayflower.de/6135-typescript.html
-
-#### Aufsetzen eines Web-Tech Stacks mit npm, TypeScript und Webpack
-
-https://blog.mayflower.de/6324-typescript-tooling-npm-webpack.html
-
-#### TypeScript im Vergleich zu Java
-
-https://blog.mayflower.de/6344-typeacript-java-entwickler.html
-
-#### TypeScript Workshop für Einsteiger
-
-https://blog.mayflower.de/6229-typescript-workshop.html
+Eine Übersicht an weiterführenden Workshops zum Thema npm, Node.js und Web-Frontends
+ befinden sich unter [HAND_OUTS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/HAND_OUTS.md)
+ eingesehen werden.
 
 <hr>
 
-![npm](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_npm.png)
+![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
 ## npm targets
 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
- MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/AntDesignPrimer/blob/master/NPM-TARGETS.md)
+ MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
  eingesehen werden.
