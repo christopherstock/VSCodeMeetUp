@@ -74,19 +74,6 @@ Einstellungen für den Linter befinden sich unter `/.eslintrc.js`.
 
 <hr>
 
-![TSLint](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_tslint.png)
-
-### TSLint ausführen
-`npm run tslint:check`
-
-Führt den TypeScript Linter für alle Quellcodes unter `/src` aus. Das Tool TSLint wird laut Ankündigung im Jahr 2020
- als deprecated klassifiziert und durch das Tool ESLint ersetzt. Daher verfügt dieses Projekt über Implementierungen
- beider Tools.
-
-Einstellungen für den Linter befinden sich unter `/tslint.json`.
-
-<hr>
-
 ![Mocha](https://github.com/christopherstock/AntDesignPrimer/raw/master/_ASSET/readme/150px/logo_mocha.png)
 
 ### Alle TypeScript Tests mit Mocha aufrufen
