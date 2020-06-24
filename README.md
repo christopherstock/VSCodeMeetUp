@@ -2,7 +2,8 @@
 
 # Visual Studio Code MeetUp
 
-Welcome to 
+Willkommen zu unserem MeetUp über Visual Studio Code. In dieser Dokumentation befinden sich die wichtigsten 
+ Informationen zu unserem Workshop.
 
 <hr>
 

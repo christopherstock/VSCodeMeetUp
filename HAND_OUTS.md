@@ -1,6 +1,7 @@
-# Folgeworkshops
+# Hand Outs und Folgeworkshops
 
-Hier sind ein paar weiterführende Workshops zur Vertiefung der einzelnen verwendeten Technologien unseres Tech Stacks:
+Hier sind ein paar weiterführende Workshops und Referenzen
+ zur Vertiefung der einzelnen verwendeten Technologien unseres Tech Stacks:
 
 ## Warum TypeScript?
 
