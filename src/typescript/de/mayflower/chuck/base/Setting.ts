@@ -23,5 +23,5 @@
         public  static  readonly    PATH_IMAGE                  :string             = 'res/image/';
 
         /** The base API URL. */
-        public  static  readonly    BASE_API_URL                :string             = 'http://api.icndb.com/';
+        public  static  readonly    BASE_API_URL                :string             = 'https://api.icndb.com/';
     }
