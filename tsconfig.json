@@ -9,7 +9,8 @@
         "noImplicitAny":        false,          /* Raise errors on expressions and declarations with an implied 'any' type. */
         "strictNullChecks":     false,          /* Enable strict null checks. */
         "downlevelIteration":   true,           /* Required for 'for of' loops. */
-        "jsx":                  "react",        /* Detect jsx files as React View Components. */
+        "skipLibCheck":         true,           /* Skips compiler-errors in the Node.js lib. */
+      "jsx":                  "react",          /* Detect jsx files as React View Components. */
         "typeRoots": [                          /* List of folders to include type definitions from. */
             "node_modules/@types"
         ]

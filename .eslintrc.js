@@ -13,7 +13,7 @@ module.exports = {
         project: 'tsconfig.json',
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint', '@typescript-eslint/tslint', 'eslint-plugin-prefer-arrow', 'eslint-plugin-import'],
+    plugins: ['@typescript-eslint', 'eslint-plugin-prefer-arrow', 'eslint-plugin-import'],
     rules: {
         '@typescript-eslint/typedef': [
             'warn',
@@ -40,6 +40,7 @@ module.exports = {
 
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
 
         // '@typescript-eslint/indent': ['warn', 4, { outerIIFEBody: 2 } ],
 
@@ -106,7 +107,7 @@ module.exports = {
         'id-blacklist': ['warn', 'any', 'Number', 'number', 'String', 'string', 'Boolean', 'boolean'],
         'id-match': 'warn',
         'import/no-deprecated': 'warn',
-        'import/order': 'warn',
+        'import/order': 'off',
         'linebreak-style': 'off',
         'max-classes-per-file': [ 'warn', 1 ],
         'max-len': [
@@ -149,14 +150,16 @@ module.exports = {
         'no-unused-labels': 'warn',
         'object-shorthand': 'off',
         'one-var': ['warn', 'never'],
+/*
         'prefer-arrow/prefer-arrow-functions': [
             'warn',
             {
                 disallowPrototype: false,
-                singleReturnOnly: true,
-                classPropertiesAllowed: false,
+                allowNamedFunctions: false,
+                allowUnboundThis: true
             },
         ],
+*/
         'quote-props': 'off',
         radix: 'warn',
         'space-before-function-paren': 'off',
