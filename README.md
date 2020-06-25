@@ -131,7 +131,7 @@ Extrahieren Sie den Lambda in der Methode `RandomJoke#render()` im Attribut `ren
 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
  MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
- eingesehen werden.
+ eingesehen werden. 
 
 <hr>
 
