@@ -1,7 +1,9 @@
+![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
+
 # Hand Outs und Folgeworkshops
 
-Hier sind ein paar weiterführende Workshops und Referenzen
- zur Vertiefung der einzelnen verwendeten Technologien unseres Tech Stacks:
+Hier gibt es ein paar weiterführende Links auf Workshops
+ zur Vertiefung der verwendeten Technologien unseres Tech Stack:
 
 ## Warum TypeScript?
 

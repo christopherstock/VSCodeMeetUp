@@ -2,8 +2,8 @@
 
 # Visual Studio Code MeetUp
 
-Willkommen zu unserem MeetUp über Visual Studio Code. In dieser Dokumentation befinden sich die wichtigsten 
- Informationen zu unserem Workshop.
+Willkommen zu unserem MeetUp über Visual Studio Code. In dieser Dokumentation sind alle wichtigen
+ Informationen über unser Workshop und unser Web-Frontend-Projekt festgehalten.
 
 <hr>
 
@@ -11,8 +11,8 @@ Willkommen zu unserem MeetUp über Visual Studio Code. In dieser Dokumentation b
 
 # React Hooks and React Context - Ant Design Web-Frontend Workshop 2.0
 
-In diesem Workshop wollen wir die Komponentenbibliothek Ant Design im praktischen Einsatz kennenlernen. Die geniale 
- React-Komponentenbibliothek Ant Design bietet eine vollständige Palette an hochwertigen, responsiven und
+In diesem Web-Frontend Projekt wollen wir die Komponentenbibliothek Ant Design im praktischen Einsatz kennenlernen.
+ Die geniale React-Komponentenbibliothek Ant Design bietet eine vollständige Palette an hochwertigen, responsiven und
  reaktiven Enterprise UI-Komponenten für Web-Frontends. Darüberhinaus ermöglicht sie die schnelle Realisierung 
  kompletter Webpräsenzen ohne dafür eine einzige Zeile HTML oder CSS Code schreiben zu müssen.
 
@@ -43,7 +43,6 @@ Insgesamt kommen die folgenden Technologien zum Einsatz:
 - Jest 25.1.0
 - TypeDoc 0.16.9
 - ESLint 6.8.0
-- TSLint 6.8.0
 
 <hr>
 
@@ -54,7 +53,7 @@ Insgesamt kommen die folgenden Technologien zum Einsatz:
 Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die **International
  Chuck Norris Database** an, eine einfache und klar strukturierte REST-API die wir mit der integrierten
  **JavaScript Fetch API** ansprechen können und die uns mit unendlich vielen Chuck Norris Witzen versorgt.
- Beispielsweise liefert hier ein simpler GET-Request auf http://api.icndb.com/jokes/random einen entsprechenden
+ Beispielsweise liefert hier ein simpler GET-Request auf [https://api.icndb.com/jokes/random](https://api.icndb.com/jokes/random) einen entsprechenden
  Response Body im JSON Format zurück, den wir anschließend in unserem Frontend parsen und anzeigen können:
 
 ```
@@ -92,7 +91,7 @@ Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webp
 
 Die gebaute und in den Webpack Dev Server gemountete Frontend Anwendung kann jetzt im Browser eingesehen werden unter:
  
-`http://localhost:1237/`
+`http://localhost:1234/`
 
 Es sollte nun das folgende Frontend im Browser zu sehen sein:
 
@@ -126,20 +125,20 @@ Extrahieren Sie den Lambda in der Methode `RandomJoke#render()` im Attribut `ren
 
 <hr>
 
-![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
-
-## Hand Outs
-
-Eine Übersicht an weiterführenden Workshops zum Thema npm, Node.js und Web-Frontends
- befinden sich unter [HAND_OUTS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/HAND_OUTS.md)
- eingesehen werden.
-
-<hr>
-
 ![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
 ## npm targets
 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
  MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
+ eingesehen werden.
+
+<hr>
+
+![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
+
+## Hand Outs
+
+Eine Übersicht an weiterführenden Workshops zum Thema npm, Node.js und Web-Frontends
+ befinden sich unter [HAND_OUTS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/HAND_OUTS.md)
  eingesehen werden.
