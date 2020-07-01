@@ -162,18 +162,41 @@ Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend s
 # 3. Erweiterungen
 
 ## ESLint
+Integrierte Unterstützung des JavaScript u. TypeScript Code Linters ESLint
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
 ## Jest
+Support für das Testing-Framework Jest
+https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+
+## Class IO
+Anzeige der Klassenhierarchie
+https://marketplace.visualstudio.com/items?itemName=rexebin.classio
+
+## Favorites
+Neues Fenster "Favoriten"
+https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites
+
+## Todo Tree
+Neues Fenster "TODOS"
+https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 
 <hr>
 
 # 4. Einstellungen
 
-## defaultSettings.json
-
 ## settings.json
+- Default Settings (JSON)
+
+## Enabling these two Settings will show additional defaults:
+- Workbench > Settings: Open Default Settings
+- Workbench > Settings: Open Default Keybindings
 
 ## keybindings.json
+- Default Keybindings (JSON)
+
+## Settings Repository
+https://github.com/christopherstock/VSCode_SetUp
 
 <hr>
 
