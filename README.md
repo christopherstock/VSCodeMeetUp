@@ -1,15 +1,75 @@
+
+# Visual Studio Code - Setup einer Web-Frontend Applikation
+
+![WUE.tech](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/meetup.jpg)
+
+https://www.meetup.com/de-DE/wue-tech/events/271514602/
+
+Willkommen zu unserem MeetUp über Visual Studio Code.
+
+In unserem MeetUp möchte ich Euch die wichtigsten Features und Einstellungsmöglichkeiten von Visual Studio Code
+  vorstellen. Gemeinsam schaffen wir ein komplettes Setup aus Einstellungen und Erweiterungen, um diesen
+  hochkonfigurierbaren Quelltext-Editor aus dem Hause Microsoft als vollwertigen Ersatz für eine Integrierte
+  Entwicklungsumgebung zur Softwareentwicklung im professionellen Bereich verwenden zu können.
+
+Um mit VS Code im praktischen Einsatz durchstarten zu können, richten wir uns ein bestehendes Frontend-Projekt ein.
+  Das Web-Frontend wurde mit den Technologien Node.js, TypeScript, Webpack, React Hooks und Ant Design realisiert.
+  Das gesamte Projekt werden wir aus VS Code heraus gemeinsam klonen, entwickeln, betreiben und testen.
+
+Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiterungen, die VS Code über den Visual Studio
+  Marketplace installieren und nutzen kann. Diverse Code-Quality Tools wie ESLint, TypeDoc und Jest können als
+  Erweiterungen in VS Code installiert und integriert verwendet werden. Darüber hinaus wollen wir uns die wichtigsten
+  Plugins für die Weiterentwicklung unseres Web-Frontend-Projekts installieren und einrichten.
+
+<hr>
+
+# Agenda
+
+- Installation von VS Code
+  - Sidebar und Command Palette
+- Betrieb und Entwicklung des Web-Frontends
+  - Klonen des Projekts
+  - Installation der Node.js-Pakete für das Web-Frontend Projekt
+  - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
+  - Weiterentwicklung des Projekts mit dem Webpack Dev Server
+  - Release des Projekts
+  - Debugging des Projekts
+  - Generieren der TypeScript-Dokumentation
+  - Starten des Code Linters ESLint
+  - Starten der Unit-Tests via Jest
+  - Generieren der Code-Coverage via Jest
+- Erweiterungen
+  - Grundlagen des Menüpunkts "Erweiterungen"
+  - Installation und Verwenden der Erweiterung ESLint
+  - Installation und Verwenden der Erweiterung Jest
+- Einstellungen
+  - Globale Einstellungen - defaultSettings.json (read-only) und settings.json.
+  - Einstellungen für den Editor - Oberfläche, Farben, Fehler- u. Warnungen-Highlights etc.
+  - Key Short-Cuts (Keymap-Erweiterung, Shortcuts via keybindings.json).
+
+<hr>
+
+# Vorraussetzungen
+
 ![Visual Studio Code](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_vscode.png)
 
-# Visual Studio Code MeetUp
+Visual Studio Code 1.46 
 
-Willkommen zu unserem MeetUp über Visual Studio Code. In dieser Dokumentation sind alle wichtigen
- Informationen über unser Workshop und unser Web-Frontend-Projekt festgehalten.
+[Download Link](https://code.visualstudio.com/)
+
+![Node.js](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_node_js.png)
+
+Node.js 12.18.2
+
+[Download Link](https://nodejs.org/de/)
 
 <hr>
 
 ![Ant Design](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_ant_design.png)
 
-# React Hooks and React Context - Ant Design Web-Frontend Workshop 2.0
+
+
+# Die Web-Frontend Applikation: React Hooks, React Context und Ant Design Web
 
 In diesem Web-Frontend Projekt wollen wir die Komponentenbibliothek Ant Design im praktischen Einsatz kennenlernen.
  Die geniale React-Komponentenbibliothek Ant Design bietet eine vollständige Palette an hochwertigen, responsiven und
