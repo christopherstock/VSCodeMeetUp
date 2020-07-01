@@ -25,31 +25,31 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
 
 # Agenda
 
-- Installation von VS Code
-  - Sidebar und Command Palette
-- Betrieb und Entwicklung des Web-Frontends
-  - Klonen des Projekts
-  - Installation der Node.js-Pakete für das Web-Frontend Projekt
-  - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
-  - Weiterentwicklung des Projekts mit dem Webpack Dev Server
-  - Release des Projekts
-  - Debugging des Projekts
-  - Generieren der TypeScript-Dokumentation
-  - Starten des Code Linters ESLint
-  - Starten der Unit-Tests via Jest
-  - Generieren der Code-Coverage via Jest
-- Erweiterungen
-  - Grundlagen des Menüpunkts "Erweiterungen"
-  - Installation und Verwenden der Erweiterung ESLint
-  - Installation und Verwenden der Erweiterung Jest
-- Einstellungen
-  - Globale Einstellungen - defaultSettings.json (read-only) und settings.json.
-  - Einstellungen für den Editor - Oberfläche, Farben, Fehler- u. Warnungen-Highlights etc.
-  - Key Short-Cuts (Keymap-Erweiterung, Shortcuts via keybindings.json).
+1. Installation von VS Code
+    - Sidebar und Command Palette
+2. Betrieb und Entwicklung des Web-Frontends
+    - Klonen des Projekts
+    - Installation der Node.js-Pakete für das Web-Frontend Projekt
+    - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
+    - Weiterentwicklung des Projekts mit dem Webpack Dev Server
+    - Release des Projekts
+    - Debugging des Projekts
+    - Generieren der TypeScript-Dokumentation
+    - Starten des Code Linters ESLint
+    - Starten der Unit-Tests via Jest
+    - Generieren der Code-Coverage via Jest
+3. Erweiterungen
+    - Grundlagen des Menüpunkts "Erweiterungen"
+    - Installation und Verwenden der Erweiterung ESLint
+    - Installation und Verwenden der Erweiterung Jest
+4. Einstellungen
+    - Globale Einstellungen - defaultSettings.json (read-only) und settings.json.
+    - Einstellungen für den Editor - Oberfläche, Farben, Fehler- u. Warnungen-Highlights etc.
+    - Key Short-Cuts (Keymap-Erweiterung, Shortcuts via keybindings.json).
 
 <hr>
 
-# Vorraussetzungen
+# 1. Vorraussetzungen
 
 ![Visual Studio Code](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_vscode.png)
 
@@ -67,9 +67,7 @@ Node.js 12.18.2
 
 ![Ant Design](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_ant_design.png)
 
-
-
-# Die Web-Frontend Applikation: React Hooks, React Context und Ant Design Web
+# 2. Die Web-Frontend Applikation
 
 In diesem Web-Frontend Projekt wollen wir die Komponentenbibliothek Ant Design im praktischen Einsatz kennenlernen.
  Die geniale React-Komponentenbibliothek Ant Design bietet eine vollständige Palette an hochwertigen, responsiven und
@@ -162,32 +160,32 @@ Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend s
 
 <hr>
 
+# 3. Erweiterungen
+
+
+
+
+<hr>
+
+# 4. Einstellungen
+
+
+
+
+<hr>
+
 ![Aufgaben](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/exam.png)
 
-## Aufgaben
+# Aufgaben
 
-Hier sind nun drei Übungsaufgaben, die es durch Erweiterungen im TypeScript-Code umzusetzen gilt.
-Die entsprechenden Stellen im Code sind mit **TODO WORKSHOP** gekennzeichnet.
-
-#### 1. Anzeige eines Progress-Bars 
-Eine neue Instanz der Komponente **Progress**
- aus dem Ant Design Framework soll in der Komponente **RandomJoke** anzeigen, wieviele
- Chuck Norris-Witze der maximal täglich ertragbaren Anzahl von 10 bereits angezeigt wurden.
-
-#### 2. Anzeige einer Notification für leere Seiten
-Zeigen Sie einen **Notification** Dialog mit einer sprechenden Beschreibung und der Severity INFO aus dem Ant Design
- Framework an, wenn der Benutzer einen Menüpunkt auswählt, für den im **Content**-Bereich noch "To be defined .."
- angezeigt wird.
-
-#### 3. Durchführung eines Refactorings
-Extrahieren Sie den Lambda in der Methode `RandomJoke#render()` im Attribut `renderItem` der Komponente `antd.List` in
- eine separate, nicht-statische Methode.
+Ein paar Übungsaufgaben um die Komponentenbibliothek Ant Design im praktischen Einsatz kennenzulernen
+ befinden sich unter [EXERCISES.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/EXERCISES.md).
 
 <hr>
 
 ![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
-## npm targets
+# npm targets
 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
  MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
@@ -197,7 +195,7 @@ Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres
 
 ![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
 
-## Hand Outs
+# Hand Outs
 
 Eine Übersicht an weiterführenden Workshops zum Thema npm, Node.js und Web-Frontends
  befinden sich unter [HAND_OUTS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/HAND_OUTS.md)
