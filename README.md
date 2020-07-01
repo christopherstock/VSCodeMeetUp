@@ -150,31 +150,31 @@ Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend s
 
 # 3. Erweiterungen
 
-![ESLint](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_eslint.png)
+![ESLint](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_eslint.png)
 
 ## ESLint
 Integrierte Unterstützung des JavaScript u. TypeScript Code Linters ESLint
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-![Jest](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_jest.png)
+![Jest](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_jest.png)
 
 ## Jest
 Support für das Testing-Framework Jest
 https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
 
-![Class IO](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_classio.png)
+![Class IO](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_classio.png)
 
 ## Class IO
 Anzeige der Klassenhierarchie
 https://marketplace.visualstudio.com/items?itemName=rexebin.classio
 
-![Favorites](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_favorites.png)
+![Favorites](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_favorites.png)
 
 ## Favorites
 Neues Fenster "Favoriten"
 https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites
 
-![Todo Tree](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_todo_tree.png)
+![Todo Tree](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_todo_tree.png)
 
 ## Todo Tree
 Neues Fenster "TODOS"
