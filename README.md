@@ -128,7 +128,7 @@ Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die *
 
 ![Installation](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/install.png)
 
-## Installation
+## Installation der Node.js Pakete
 
 Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pakete die der genannte Tech Stack 
  verwendet und die in der Datei **package.json** aufgelistet sind. Die in dieser Datei im Bereich **script** 
@@ -140,7 +140,7 @@ Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pa
 
 ![Entwicklung](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/develop.png)
 
-## Entwicklung
+## Betrieb und Weiterentwicklung
 
 Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webpack Dev Server gestartet werden:
 
@@ -161,21 +161,31 @@ Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend s
 
 # 3. Erweiterungen
 
+![ESLint](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_eslint.png)
+
 ## ESLint
 Integrierte Unterstützung des JavaScript u. TypeScript Code Linters ESLint
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+![Jest](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_jest.png)
 
 ## Jest
 Support für das Testing-Framework Jest
 https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
 
+![Class IO](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_classio.png)
+
 ## Class IO
 Anzeige der Klassenhierarchie
 https://marketplace.visualstudio.com/items?itemName=rexebin.classio
 
+![Favorites](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_favorites.png)
+
 ## Favorites
 Neues Fenster "Favoriten"
 https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites
+
+![Todo Tree](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/logo_extension_todo_tree.png)
 
 ## Todo Tree
 Neues Fenster "TODOS"
