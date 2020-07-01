@@ -27,11 +27,10 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
 
 1. Installation von VS Code
     - Sidebar und Command Palette
-2. Betrieb und Entwicklung des Web-Frontends
-    - Klonen des Projekts
-    - Installation der Node.js-Pakete für das Web-Frontend Projekt
+2. Betrieb und Weiterentwicklung des Web-Frontend Projekts
+    - Projekt klonen
+    - Node.js-Pakete installieren
     - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
-    - Weiterentwicklung des Projekts mit dem Webpack Dev Server
     - Release des Projekts
     - Debugging des Projekts
     - Generieren der TypeScript-Dokumentation
@@ -49,7 +48,7 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
 
 <hr>
 
-# 1. Vorraussetzungen
+# 1. Installation von VS Code
 
 ![Visual Studio Code](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_vscode.png)
 
@@ -162,24 +161,19 @@ Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend s
 
 # 3. Erweiterungen
 
+## ESLint
 
-
+## Jest
 
 <hr>
 
 # 4. Einstellungen
 
+## defaultSettings.json
 
+## settings.json
 
-
-<hr>
-
-![Aufgaben](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/exam.png)
-
-# Aufgaben
-
-Ein paar Übungsaufgaben um die Komponentenbibliothek Ant Design im praktischen Einsatz kennenzulernen
- befinden sich unter [EXERCISES.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/EXERCISES.md).
+## keybindings.json
 
 <hr>
 
@@ -190,6 +184,15 @@ Ein paar Übungsaufgaben um die Komponentenbibliothek Ant Design im praktischen 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
  MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
  eingesehen werden. 
+
+<hr>
+
+![Aufgaben](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/exam.png)
+
+# Aufgaben
+
+Ein paar Übungsaufgaben um die Komponentenbibliothek Ant Design im praktischen Einsatz kennenzulernen
+ befinden sich unter [EXERCISES.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/EXERCISES.md).
 
 <hr>
 
