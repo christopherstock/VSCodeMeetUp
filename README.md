@@ -187,14 +187,14 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 ## settings.json
 - Default Settings (JSON)
 
-## Enabling these two Settings will show additional defaults:
+## Zugehörige Default JSON anzeigen:
 - Workbench > Settings: Open Default Settings
 - Workbench > Settings: Open Default Keybindings
 
 ## keybindings.json
 - Default Keybindings (JSON)
 
-## Settings Repository
+## GitHub Settings Repository
 https://github.com/christopherstock/VSCode_SetUp
 
 <hr>
