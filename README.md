@@ -31,16 +31,11 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
     - Projekt klonen
     - Node.js-Pakete installieren
     - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
-    - Release des Projekts
-    - Debugging des Projekts
-    - Generieren der TypeScript-Dokumentation
-    - Starten des Code Linters ESLint
-    - Starten der Unit-Tests via Jest
-    - Generieren der Code-Coverage via Jest
+    - Debugging des Projekts ?
+    - Weitere npm Targets (Webpack-Release, TypeDoc, ESLint, Jest, Code-Coverage)
 3. Erweiterungen
     - Grundlagen des Menüpunkts "Erweiterungen"
-    - Installation und Verwenden der Erweiterung ESLint
-    - Installation und Verwenden der Erweiterung Jest
+    - Installation und Verwenden der Erweiterungen ESLint, Jest, Class IO, Favorites und Todo Tree
 4. Einstellungen
     - Globale Einstellungen - defaultSettings.json (read-only) und settings.json.
     - Einstellungen für den Editor - Oberfläche, Farben, Fehler- u. Warnungen-Highlights etc.
@@ -73,13 +68,9 @@ In diesem Web-Frontend Projekt wollen wir die Komponentenbibliothek Ant Design i
  reaktiven Enterprise UI-Komponenten für Web-Frontends. Darüberhinaus ermöglicht sie die schnelle Realisierung 
  kompletter Webpräsenzen ohne dafür eine einzige Zeile HTML oder CSS Code schreiben zu müssen.
 
-<hr>
-
 ## Online Demo
 
 [https://christopherstock.github.io/VSCodeMeetUp/dist](https://christopherstock.github.io/VSCodeMeetUp/dist)
-
-<hr>
 
 ![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
@@ -100,8 +91,6 @@ Insgesamt kommen die folgenden Technologien zum Einsatz:
 - Jest 25.1.0
 - TypeDoc 0.16.9
 - ESLint 6.8.0
-
-<hr>
 
 ![The International Chuck Norris Database](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/icndb.png)
 
@@ -128,7 +117,7 @@ Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die *
 
 ![Installation](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/install.png)
 
-## Installation der Node.js Pakete
+## 2.1. Installation der Node.js Pakete
 
 Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pakete die der genannte Tech Stack 
  verwendet und die in der Datei **package.json** aufgelistet sind. Die in dieser Datei im Bereich **script** 
@@ -140,7 +129,7 @@ Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pa
 
 ![Entwicklung](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/develop.png)
 
-## Betrieb und Weiterentwicklung
+## 2.2. Betrieb und Weiterentwicklung
 
 Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webpack Dev Server gestartet werden:
 
@@ -210,28 +199,26 @@ https://github.com/christopherstock/VSCode_SetUp
 
 <hr>
 
+# Referenzen
+
 ![npm](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_npm.png)
 
-# npm targets
+## npm Targets
 
 Eine ausführliche Übersicht über die Funktionsweise aller npm-Targets unseres npm-Tech Stacks kann in der
  MarkDown-Datei [NPM-TARGETS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/NPM-TARGETS.md)
  eingesehen werden. 
 
-<hr>
-
 ![Aufgaben](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/exam.png)
 
-# Aufgaben
+## Aufgaben
 
 Ein paar Übungsaufgaben um die Komponentenbibliothek Ant Design im praktischen Einsatz kennenzulernen
  befinden sich unter [EXERCISES.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/EXERCISES.md).
 
-<hr>
-
 ![Hand Outs](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/handout.png)
 
-# Hand Outs
+## Hand Outs
 
 Eine Übersicht an weiterführenden Workshops zum Thema npm, Node.js und Web-Frontends
  befinden sich unter [HAND_OUTS.md](https://github.com/christopherstock/VSCodeMeetUp/blob/master/HAND_OUTS.md)
