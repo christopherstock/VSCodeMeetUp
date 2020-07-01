@@ -187,9 +187,8 @@ https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 ## settings.json
 - Default Settings (JSON)
 
-## Zugehörige Default JSON anzeigen:
-- Workbench > Settings: Open Default Settings
-- Workbench > Settings: Open Default Keybindings
+## Zugehörige Default JSON einsehen:
+- Command Palette: Open Default Settings / Keyboard Shortcuts
 
 ## keybindings.json
 - Default Keybindings (JSON)
