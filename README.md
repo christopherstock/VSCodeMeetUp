@@ -43,17 +43,28 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
 
 <hr>
 
-# 1. Installation von VS Code
+# 1. Installation
+
+## 1.1. Visual Studio Code
 
 ![Visual Studio Code](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_vscode.png)
 
-Visual Studio Code 1.46 
+Visual Studio Code 1.46
+
+VS Code installiert und startet schnell. Unter dem Menüpunkt `View > Command Palette..` sind alle Befehle innerhalb 
+ VS Code schnell erreichbar. Die Sidebar ermöglicht den Zugriff auf die wichtigsten Unterstützungen zum Arbeiten
+ (Explorer, Search, VCS, Run und Extensions)
 
 [Download Link](https://code.visualstudio.com/)
 
+## 1.2. Node.js
+
 ![Node.js](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_node_js.png)
 
-Node.js 12.18.2
+Node.js 12.18.2 
+
+Um das Web-Frontend Projekt zu bauen und zu betreiben benötigen Sie eine Installation der
+ JavaScript Laufzeitumgebung Node.js.
 
 [Download Link](https://nodejs.org/de/)
 
@@ -117,13 +128,28 @@ Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die *
 
 ![Installation](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/install.png)
 
+## 2.1. Klonen des Projekts
+
+Die folgende GitHub URL kann direkt in VS Code geklont und eingerichtet werden.
+
+https://github.com/christopherstock/VSCodeMeetUp.git
+
+Verwenden Sie hierfür den folgenden Menüpunkt in der Sidebar: `Source Control > Clone Repository`
+
+
 ## 2.1. Installation der Node.js Pakete
 
-Nach dem Klones des Git Repositories installiert der folgende Befehl alle npm Pakete die der genannte Tech Stack 
- verwendet und die in der Datei **package.json** aufgelistet sind. Die in dieser Datei im Bereich **script** 
- aufgelisteten npm Targets stehen anschließend zur Verfügung.
+Nach dem Klones des Git Repositories müssen Sie alle im Projekt benötigten Node.js-Pakete installieren, die
+ das Web-Frontend verwendet. Aufgelistet sind diese in der Datei **package.json**. Öffnen Sie ein neues Terminal
+ direkt in VS Code mit dem Menübefehl `Terminal > New Terminal` und verwenden Sie den folgenden npm-Befehl:
 
 `npm install`
+
+Nach der Installation sind alle in der Datei **package.jsonb** im Bereich **script** 
+ aufgelisteten npm Targets verfügbar.
+ 
+In VS Code gibt es zudem auch ein neues Fenster "npm Targets", in dem alle npm-Targets aufgelistet sind und mit einem
+ Klick gestartet werden können.
 
 <hr>
 
@@ -138,6 +164,8 @@ Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webp
 Die gebaute und in den Webpack Dev Server gemountete Frontend Anwendung kann jetzt im Browser eingesehen werden unter:
  
 `http://localhost:1234/`
+
+.. hier kann in VS Code direkt 
 
 Es sollte nun das folgende Frontend im Browser zu sehen sein:
 
