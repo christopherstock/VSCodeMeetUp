@@ -9,8 +9,6 @@
     *
     *   TODO useEffect: https://overreacted.io/a-complete-guide-to-useeffect/
     *   TODO tests: https://testing-library.com/docs/react-testing-library/intro
-    *
-    *   TODO React Context.
     *******************************************************************************************************************/
     export class Main
     {

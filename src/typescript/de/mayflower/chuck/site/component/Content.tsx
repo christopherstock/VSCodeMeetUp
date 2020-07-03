@@ -1,4 +1,5 @@
 
+    import Notification             from 'antd/lib/notification';
     import Layout                   from 'antd/lib/layout';
     import * as React               from 'react';
     import { MenuItem, RandomJoke } from '../..';
@@ -20,6 +21,18 @@
     *******************************************************************************************************************/
     export const Content :( props:ContentProps ) => JSX.Element = ( props:ContentProps ) :JSX.Element =>
     {
+/*
+        React.useEffect( () => {
+            if ( props.currentSite !== MenuItem.RANDOM_JOKE )
+            {
+                // show a warning
+                Notification.warning( {
+                    message: 'Page under construction',
+                    description: 'This content is still under development.',
+                } );
+            }
+        } );
+*/
         return <Layout.Content
             className="content"
         >
@@ -48,7 +61,6 @@
 
             default:
             {
-                // TODO WORKSHOP show a Notification that this content is subject to change
                 return <div>
                     To be defined ..
                 </div>;

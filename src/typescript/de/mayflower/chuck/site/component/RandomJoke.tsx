@@ -25,7 +25,7 @@
         : [RandomJokeResponse[], React.Dispatch<React.SetStateAction<RandomJokeResponse[]>>]
         = React.useState<RandomJokeResponse[]>( [] );
 
-        // use the React Effect Hook
+        // React Effect Hook triggers an event after the component has been created
         React.useEffect(
             () => {
                 requestRandomJoke();

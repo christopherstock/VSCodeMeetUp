@@ -12,7 +12,7 @@
         // get settings context
         const settings :Settings = React.useContext( SettingsContext );
 
-        // create new state variable 'menuItem' with setter 'setMenuItem'
+        // create new React state variable 'menuItem' with setter 'setMenuItem'
         const [
             menuItem,
             setMenuItem,
