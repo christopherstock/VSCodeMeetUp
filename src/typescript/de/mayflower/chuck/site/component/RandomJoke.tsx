@@ -4,6 +4,7 @@
     import List                               from 'antd/lib/List';
     import * as React                         from 'react';
     import { Debug, API, RandomJokeResponse } from '../..';
+    import Notification                       from 'antd/lib/notification';
 
     /** ****************************************************************************************************************
     *   The react component that represents the RandomJoke main content page.
@@ -116,6 +117,9 @@
 
             setJokes(             newJokes );
             setRequestInProgress( false    );
+
+            // show 'success dialog'
+            // Notification.success( { message: 'Success', description: 'Your random joke has been received.' } );
         }
 
         /** ************************************************************************************************************

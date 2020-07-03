@@ -22,6 +22,7 @@
     export const Content :( props:ContentProps ) => JSX.Element = ( props:ContentProps ) :JSX.Element =>
     {
 /*
+        // shows an error message on conceptual contents in an React effect hook (each render)
         React.useEffect( () => {
             if ( props.currentSite !== MenuItem.RANDOM_JOKE )
             {
