@@ -137,7 +137,7 @@ https://github.com/christopherstock/VSCodeMeetUp.git
 Verwenden Sie hierfür den folgenden Menüpunkt in der Sidebar: `Source Control > Clone Repository`
 
 
-## 2.1. Installation der Node.js Pakete
+## 2.2. Installation der Node.js Pakete
 
 Nach dem Klones des Git Repositories müssen Sie alle im Projekt benötigten Node.js-Pakete installieren, die
  das Web-Frontend verwendet. Aufgelistet sind diese in der Datei **package.json**. Öffnen Sie ein neues Terminal
@@ -152,7 +152,7 @@ Nach der Installation sind alle in der Datei **package.jsonb** im Bereich **scri
 
 ![Entwicklung](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/develop.png)
 
-## 2.2. Betrieb und Weiterentwicklung
+## 2.3. Betrieb und Weiterentwicklung
 
 Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webpack Dev Server gestartet werden:
 
