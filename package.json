@@ -1,7 +1,7 @@
 {
     "name": "ant-design-primer",
     "version": "1.0.0",
-    "description": "Ant Design meets The International Chuck Norris Database",
+    "description": "Visual Studio Code MeetUp",
     "author": "Christopher Stock <christopher.stock@mayflower.de>",
     "license": "MIT",
     "main": "dist/index.html",
@@ -13,7 +13,7 @@
         "webpack:dev": "webpack --mode=development --watch",
         "webpack:production": "webpack --mode=production --watch",
         "webpack:devserver": "webpack-dev-server --mode=development",
-        "typedoc:generate": "typedoc --out doc --listInvalidSymbolLinks --name \"Ant Design meets The International Chuck Norris Database, (c) 2020 Mayflower GmbH\" src/typescript",
+        "typedoc:generate": "typedoc --out doc --listInvalidSymbolLinks --name \"Visual Studio Code MeetUp, (c) 2020 Mayflower GmbH\" src/typescript",
         "eslint:check": "eslint \"src/**/*.{ts,tsx}\"",
         "test:jest": "jest",
         "test:jest-coverage": "jest --coverage"

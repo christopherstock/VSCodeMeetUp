@@ -147,9 +147,6 @@ Nach dem Klones des Git Repositories müssen Sie alle im Projekt benötigten Nod
 
 Nach der Installation sind alle in der Datei **package.jsonb** im Bereich **script** 
  aufgelisteten npm Targets verfügbar.
- 
-In VS Code gibt es zudem auch ein neues Fenster "npm Targets", in dem alle npm-Targets aufgelistet sind und mit einem
- Klick gestartet werden können.
 
 <hr>
 
@@ -161,18 +158,20 @@ Zum Bauen und Betrieben des Web-Frontends kann mit dem folgenden Befehl der Webp
 
 `npm run webpack:devserver`
 
-Die gebaute und in den Webpack Dev Server gemountete Frontend Anwendung kann jetzt im Browser eingesehen werden unter:
+Alternativ können Sie im Menüpunkt `Explorer` der Sidebar das Fenster `npm Target` nutzen. Hier sind alle 
+ verfügbaren npm-Targets aufgelistet und sie können diese mit einem Klick starten.
+
+Die gebaute und in den Webpack Dev Server gemountete Frontend Anwendung kann jetzt unter der folgenden Adresse im
+ Browser eingesehen werden:
  
 `http://localhost:1234/`
-
-.. hier kann in VS Code direkt 
-
+ 
 Es sollte nun das folgende Frontend im Browser zu sehen sein:
 
 ![Frontend](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/frontend.jpg)
 
 Beim allen Änderungen am Projektcode baut der Webpack Dev Server das Frontend selbstständig neu und aktualisiert die
- Webseite im Browser.
+ Webseite im Browser automatisch.
 
 <hr>
 

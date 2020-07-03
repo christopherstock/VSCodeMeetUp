@@ -8,7 +8,7 @@
         * The name of the application.
         * This line intentionally exceeds the hard limit of 120 for ESLint demonstration.
         */
-        public  static  readonly    TITLE                       :string             = 'Ant Design meets The International Chuck Norris Database';
+        public  static  readonly    TITLE                       :string             = 'Visual Studio Code MeetUp';
         /** The copyright information. */
         public  static  readonly    COPYRIGHT                   :string             = '(c) 2020 Mayflower GmbH, v.1.0';
 
