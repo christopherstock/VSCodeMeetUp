@@ -124,8 +124,6 @@ Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die *
 }
 ```
 
-<hr>
-
 ![Installation](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/install.png)
 
 ## 2.1. Klonen des Projekts
