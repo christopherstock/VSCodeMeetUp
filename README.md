@@ -136,7 +136,6 @@ https://github.com/christopherstock/VSCodeMeetUp.git
 
 Verwenden Sie hierfür den folgenden Menüpunkt in der Sidebar: `Source Control > Clone Repository`
 
-
 ## 2.2. Installation der Node.js Pakete
 
 Nach dem Klones des Git Repositories müssen Sie alle im Projekt benötigten Node.js-Pakete installieren, die
@@ -147,8 +146,6 @@ Nach dem Klones des Git Repositories müssen Sie alle im Projekt benötigten Nod
 
 Nach der Installation sind alle in der Datei **package.jsonb** im Bereich **script** 
  aufgelisteten npm Targets verfügbar.
-
-<hr>
 
 ![Entwicklung](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/develop.png)
 
