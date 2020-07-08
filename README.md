@@ -103,11 +103,11 @@ Insgesamt kommen die folgenden Technologien zum Einsatz:
 - TypeDoc 0.16.9
 - ESLint 6.8.0
 
-![The International Chuck Norris Database](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/icndb.png)
+![The Internet Chuck Norris Database](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/icndb.png)
 
-## The International Chuck Norris Database
+## The Internet Chuck Norris Database
 
-Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die **International
+Als fertig bestehendes **Backend** für unser Frontend-Projekt bietet sich die **Internet
  Chuck Norris Database** an, eine einfache und klar strukturierte REST-API die wir mit der integrierten
  **JavaScript Fetch API** ansprechen können und die uns mit unendlich vielen Chuck Norris Witzen versorgt.
  Beispielsweise liefert hier ein simpler GET-Request auf [https://api.icndb.com/jokes/random](https://api.icndb.com/jokes/random) einen entsprechenden
