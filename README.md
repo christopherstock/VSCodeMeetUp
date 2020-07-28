@@ -34,7 +34,7 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
     - Weitere npm Targets (Webpack-Release, TypeDoc, ESLint, Jest, Code-Coverage)
 3. Erweiterungen
     - Grundlagen des Menüpunkts "Erweiterungen"
-    - Installation und Verwenden der Erweiterungen ESLint, Jest, Class IO, Favorites und Todo Tree
+    - Installation und Verwenden der Erweiterungen ESLint, Jest, Favorites und Todo Tree
 4. Einstellungen
     - Globale Einstellungen - defaultSettings.json (read-only) und settings.json.
     - Einstellungen für den Editor - Oberfläche, Farben, Fehler- u. Warnungen-Highlights etc.
