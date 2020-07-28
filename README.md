@@ -26,7 +26,7 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
 # Agenda
 
 1. Installation von VS Code
-    - Sidebar und Command Palette
+    - Sidebar, Terminal und Command Palette
 2. Betrieb und Weiterentwicklung des Web-Frontend Projekts
     - Projekt klonen
     - Node.js-Pakete installieren
