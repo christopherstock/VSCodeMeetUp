@@ -17,15 +17,13 @@
             chai.expect( wrapper.length ).to.equal( 1 );
         });
 
-        it( 'assign the property "currentSite"', () =>
+        it( 'Basic example addition test"', () =>
         {
-            // replace with React Testing Library
-/*
-            const contentComponent :React.Component<ContentProps> = wrapper.instance() as React.Component<ContentProps>;
+            chai.expect( 2 + 2 ).to.equal( 4 );
+        });
 
-            console.log( contentComponent );
-
-            chai.expect( contentComponent.props.currentSite ).to.equal( MenuItem.ABOUT );
-*/
+        it( 'Basic example substraction test"', () =>
+        {
+            chai.expect( 2 - 2 ).to.equal( 0 );
         });
     });
