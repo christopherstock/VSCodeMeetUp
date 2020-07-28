@@ -31,7 +31,6 @@ Zudem werfen wir einen Blick auf die schier unerschöpfliche Anzahl an Erweiteru
     - Projekt klonen
     - Node.js-Pakete installieren
     - Betrieb und Weiterentwicklung mit dem Webpack Dev Server
-    - Debugging des Projekts ?
     - Weitere npm Targets (Webpack-Release, TypeDoc, ESLint, Jest, Code-Coverage)
 3. Erweiterungen
     - Grundlagen des Menüpunkts "Erweiterungen"
