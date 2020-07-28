@@ -102,7 +102,7 @@
             );
         }
 
-        /** ************************************************************************************************************
+        /** *************************************************************************************************************
         *   Being invoked when the random joke data has arrived.
         *
         *   @param joke The received random joke data model.
@@ -127,10 +127,10 @@
         *
         *   @param error The error that occurred on requesting the random joke.
         ***************************************************************************************************************/
-        function onRandomJokeError( error:Error ) : void
+        function onRandomJokeError( error ) : void
         {
             Debug.network.log( 'requesting random joke threw an error:' );
-            Debug.network.log( error.message );
+            console.log( error.message );
 
             setRequestInProgress( false );
         }
