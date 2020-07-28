@@ -183,12 +183,6 @@ https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 Support für das Testing-Framework Jest
 https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
 
-![Class IO](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_classio.png)
-
-## Class IO
-Anzeige der Klassenhierarchie
-https://marketplace.visualstudio.com/items?itemName=rexebin.classio
-
 ![Favorites](https://github.com/christopherstock/VSCodeMeetUp/raw/master/_ASSET/readme/150px/logo_extension_favorites.png)
 
 ## Favorites
